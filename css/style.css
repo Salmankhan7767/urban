@@ -1,0 +1,682 @@
+body,html{
+   margin: 0;
+   padding: 0;
+}
+
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+
+.header{
+    width: 100%;
+    height: 130vh;
+    background-image:url(../img/banner.png);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+
+}
+
+
+
+.header h3{
+    color: #fff;
+    font-size: 13px;
+    font-weight: lighter;
+    float: left;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.header h3 span{
+    color:#3498db;
+}
+
+
+.header a{
+    list-style: none;
+    float: right;
+    color: #fff;
+    font-size: 13px;
+    font-weight: lighter;
+    text-decoration: none;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+ .header a span{
+    margin-right:10px
+ }
+
+
+ /*----banner start---*/
+
+
+ .banner{
+    width: 80%;
+    clear: both;
+   
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 300px;
+
+    
+ }
+
+ .banner h1{
+    color: #fff;
+    font-size: 50px;
+ }
+
+.banner p{
+    color: #fff;
+    font-size: 17px;
+    line-height: 30px;
+
+}
+
+.banner button{
+    width: 110px;
+    height: 35px;
+    color: #fff;
+    background-color: #3498db;
+    border: 0;
+    
+}
+
+
+/*------main-section------*/
+
+.main-section{
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+.left{
+    width:30%;
+    height: 350px;
+    float: left;
+    text-align: center;
+    margin-left: 30px;
+    
+
+}
+
+
+.left img{
+    width:95% ;
+    border-radius: 100%;
+    margin-top: 40px;
+    border: 1px solid gray;
+
+    
+}
+
+
+
+.right{
+    width:65%;
+    height: 350px;
+    float: right;
+  
+}
+
+
+.right h4{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.right p{
+   
+    font-size:18px;
+    line-height:25px;
+    color: gray;
+}
+
+
+
+.right button{
+    width: 110px;
+    height: 35px;
+    color: #fff;
+    background-color: #3498db;
+    border: 0;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+
+/*------text-area-----*/
+
+.text-area{
+    width: 100%;
+    height: 400px;
+    background-color: #3498db;
+}
+
+
+.both{
+    width: 80%;
+    height: 350px;
+   
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+    
+}
+
+.left-text{
+    width: 65%;
+    height: 350px;
+   
+    float: left;
+
+}
+
+.left-text h4{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+.left-text p{
+   
+    font-size:18px;
+    line-height:25px;
+    color: rgb(244, 227, 227);
+}
+
+
+
+.left-text button{
+    width: 110px;
+    height: 35px;
+    color:#3498db;
+    background-color:#fff;
+    border: 0;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+
+
+
+.right-image{
+    width: 30%;
+    height:350px;
+    float: right;
+   
+}
+
+
+.right-image  img{
+    width:95% ;
+    border-radius: 100%;
+    margin-top: 40px;
+    border: 1px solid gray;
+  
+}
+
+/*--------box start----------------*/
+
+
+.box{
+    width: 100%;
+    height: 700px;
+    background-color:rgb(254, 250, 250);
+    text-align: center;
+
+}
+
+.box h3{
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 60px;
+    
+}
+
+.box p{
+    font-size: 20px;
+    color: rgb(198, 195, 195);
+    
+
+}
+
+
+
+
+.three-box{
+
+    width: 80%;
+    height: 500px;
+   
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+
+.one{
+    width:30%;
+    height:450px;
+  
+    float: left;
+    margin-top: 25px;
+    
+}
+
+.one img{
+    width:90%;
+    border-radius: 100%;
+    margin-top: 20px;
+    border: 1px solid gray;
+}
+
+.one p{
+    font-size:15px ;
+
+}
+
+.one button{
+    width: 110px;
+    height: 35px;
+    color: #fff;
+    background-color: #3498db;
+    border: 0;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+
+
+
+
+
+
+.two{
+    width:30%;
+    height:450px;
+    
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+}
+
+.two img{
+    width:90%;
+    border-radius: 100%;
+    margin-top: 20px;
+    border: 1px solid gray;
+}
+
+.two p{
+    font-size:15px ;
+
+}
+
+.two button{
+    width: 110px;
+    height: 35px;
+    color: #fff;
+    background-color: #3498db;
+    border: 0;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+
+
+
+
+.three{
+    width:30%;
+    height:450px;
+   
+    float: left;
+    margin-top: 25px;
+}
+
+.three img{
+    width:90%;
+    border-radius: 100%;
+    margin-top: 20px;
+    border: 1px solid gray;
+}
+
+.three p{
+    font-size:15px ;
+
+}
+
+.three button{
+    width: 110px;
+    height: 35px;
+    color: #fff;
+    background-color: #3498db;
+    border: 0;
+    margin-top: 10px;
+    border-radius: 2px;
+     
+}
+
+footer{
+   
+    width:35%;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+
+.icon{
+    font-size: 25px;
+    color: grey;
+    
+}
+
+.icon i{
+    border: 1px solid lightgray;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+
+.text{
+    color:lightgray;
+    font-size: 15px;
+    word-spacing: 2px;
+}
+
+
+.gray{
+    color: gray;
+}
+
+
+
+
+
+
+
+
+@media only  screen and (max-width:800px){
+    .main-section{
+        width: 80%;
+        height: 800px;
+        margin: 0 auto;
+
+    }
+
+    .left{
+        width: 85%;
+        height:360px ;
+       
+        
+        
+
+    }
+
+
+    .left img{
+        width:65%;
+        margin-bottom: 20px;
+       
+    }
+
+    .right{
+        width: 85%;
+       
+        margin-right:50px ;
+       
+      
+    
+      
+    }
+
+
+    .text-area{
+        width: 100%;
+        height:900px;
+        margin-top:50px ;
+        margin: 0 auto;
+        
+       
+    }
+
+
+    .left-text{
+        width: 85%;
+   
+        margin-left:30px;
+    
+        
+    }
+    
+
+
+    .right-image{
+        width: 85%;
+        height: 400px;
+        float: left;
+        margin-left: 30px;
+        margin-top: 70px;
+
+
+    }
+
+    .right-image img{
+        width: 65%;
+        margin-top: 30px;
+        margin-left: 60px;
+       
+        
+        
+        
+    }
+
+    .one{
+        width: 100%;
+        
+       
+
+    }
+
+   .two{
+        width: 100%;
+        margin-top:50px ;
+        margin-bottom: 50px;
+        
+        
+   }
+
+   .three{
+        width: 100%;
+    
+
+   }
+
+   footer{
+    width: 100%;
+    
+   }
+
+    
+}
+
+
+/*----------------- Media query ( max- width - 900) end here  ------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+@media only  screen and (max-width:600px){
+
+    .main-section{
+        width: 80%;
+        height: 900px;
+        
+
+    }
+
+
+    
+    .left{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+        
+        
+
+    }
+
+
+    .left img{
+        width:75%;
+        margin-top: 3px;
+        
+    }
+
+    .right{
+        width: 100%;
+        height: 360px;
+        margin: 0 auto;
+        text-align: justify;
+        margin-top: 20px;
+        margin-bottom: 20px;
+       
+        
+    
+      
+    }
+
+
+    .right button{
+        margin-top: 20px;
+    }
+
+
+    .text-area{
+        width: 100%;
+        height: 900px;
+        margin-top:50px ;
+       
+    }
+
+
+    .left-text{
+        width: 100%;
+        float: left;
+        margin: 0 auto;
+        text-align: justify;
+    }
+    
+
+
+    .right-image{
+        width: 100%;
+        height: 370px;
+        float: left;
+        margin: 0 auto;
+        margin-top: 70px;
+
+
+    }
+
+    .right-image img{
+        width: 75%;
+        margin: 0 auto;
+        margin-left: 60px;
+        margin-top: 10px;
+        
+    }
+
+
+
+    
+
+
+    .one{
+        width: 100%;
+        height: 500px;
+       
+    
+    }
+
+
+    .one img{
+        width:70%;
+    }
+
+
+   .two{
+        width: 100%;
+        height: 500px;                                                                    
+        margin-top:50px ;
+      
+        margin-left: 0px;
+        
+        
+   }
+
+
+    .two img{
+
+         width:70%;
+   }
+
+   .three{
+        width: 100%;
+        height: 500px;
+        margin-top: 0px;
+    
+
+   }
+
+   
+   .three img{
+
+        width:70%;
+    }
+    
+
+    footer{
+        width: 100%;
+        
+       }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
